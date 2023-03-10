@@ -2,7 +2,7 @@ import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
 import dotenv from 'dotenv';
-import data from '../Data.js';
+
 
 import seedRouter from './Routes/seedRoutes.js';
 import productRouter from './Routes/productRoutes.js';
