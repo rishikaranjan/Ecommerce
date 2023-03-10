@@ -1,9 +1,8 @@
 import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
-// import path from 'path';
 import dotenv from 'dotenv';
-import data from '../backend/Data.js';
+import data from '../Data.js';
 
 import seedRouter from './Routes/seedRoutes.js';
 import productRouter from './Routes/productRoutes.js';
@@ -73,13 +72,6 @@ app.use('/api/orders', orderRouter);
 app.use('/api/upload', uploadRouter);
 
 
-// const __dirname = path.resolve();
-
-// app.use(express.static(path.join(__dirname, '/frontend/build')));
-
-// app.get('*', (req, res) =>
-//   res.sendFile(path.join(__dirname, '/frontend/build/index.html'))
-// );
 
 
  
